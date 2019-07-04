@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Test.XMLVerifcationTests" skipped="0" tests="1" time="8.45" timestamp="2019-01-16T09:33:04.892Z[Europe/London]"><testcase classname="Test.XMLVerifcationTests" name="Extract verify new game XML"><error message="io.restassured.internal.path.xml.NodeChildrenImpl cannot be cast to io.restassured.path.xml.element.Node" type="java.lang.ClassCastException">io.restassured.internal.path.xml.NodeChildrenImpl cannot be cast to io.restassured.path.xml.element.Node</error><system-err>io.restassured.internal.path.xml.NodeChildrenImpl cannot be cast to io.restassured.path.xml.element.Node&#13;
+Step.StepClass1.GetVideogame(StepClass1.java:45)&#13;
+Test.XMLVerifcationTests.ExtractVerifyNewGameXML(XMLVerifcationTests.java:36)&#13;
+</system-err></testcase></testsuite>

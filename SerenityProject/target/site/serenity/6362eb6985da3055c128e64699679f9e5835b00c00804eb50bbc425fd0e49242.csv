@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Verifcation tests","Videogame json matches schema","ERROR","14:10:40","0.0","1.52"
+"Verifcation tests","Videogame post request JSON","ERROR","14:10:42","0.0","0.06"
+"Verifcation tests","Extract verify new game XML","ERROR","14:10:42","0.0","0.03"
+"Verifcation tests","Videogame post request xml","ERROR","14:10:42","0.0","0.03"
+"Verifcation tests","Videogame xml matches schema","ERROR","14:10:42","0.0","0.02"

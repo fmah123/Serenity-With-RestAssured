@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Test.XMLVerifcationTests" skipped="0" tests="1" time="9.12" timestamp="2019-01-16T10:00:07.619Z[Europe/London]"><testcase classname="Test.XMLVerifcationTests" name="Videogame post request xml"><error message="net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.getDefinedFilters()Ljava/util/List;" type="java.lang.AbstractMethodError">net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.getDefinedFilters()Ljava/util/List;</error><system-err>net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.getDefinedFilters()Ljava/util/List;&#13;
+net.serenitybdd.rest.utils.RestReportingHelper.recordRestSpecificationData(RestReportingHelper.java:47)&#13;
+net.serenitybdd.rest.utils.RestReportingHelper.registerCall(RestReportingHelper.java:67)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.execute(RequestSpecificationDecorated.java:263)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.post(RequestSpecificationDecorated.java:74)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.post(RequestSpecificationDecorated.java:27)&#13;
+Step.StepClass1.XMLPostGame(StepClass1.java:32)&#13;
+Test.XMLVerifcationTests.VideogamePostRequestXml(XMLVerifcationTests.java:31)&#13;
+</system-err></testcase></testsuite>

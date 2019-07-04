@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Test.VerifcationTests" skipped="0" tests="1" time="3.93" timestamp="2019-01-16T10:04:14.425Z[Europe/London]"><testcase classname="Test.VerifcationTests" name="Videogame post request JSON"><error message="Schema to use cannot be null" type="java.lang.IllegalArgumentException">Schema to use cannot be null</error><system-err>Schema to use cannot be null&#13;
+io.restassured.module.jsv.JsonSchemaValidator.validateSchemaIsNotNull(JsonSchemaValidator.java:270)&#13;
+io.restassured.module.jsv.JsonSchemaValidator.access$300(JsonSchemaValidator.java:75)&#13;
+io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:166)&#13;
+io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath(JsonSchemaValidator.java:117)&#13;
+Step.StepClass.JSONPostGame(StepClass.java:42)&#13;
+Test.VerifcationTests.VideogamePostRequestJSON(VerifcationTests.java:26)&#13;
+</system-err></testcase></testsuite>

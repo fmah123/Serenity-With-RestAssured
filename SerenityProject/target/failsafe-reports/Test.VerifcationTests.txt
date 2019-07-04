@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: Test.VerifcationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 9.728 sec <<< FAILURE! - in Test.VerifcationTests
+VideogameJsonMatchesSchema(Test.VerifcationTests)  Time elapsed: 1.657 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.CallEndpointJSON(StepClass.java:23)
+	at Test.VerifcationTests.VideogameJsonMatchesSchema(VerifcationTests.java:48)
+
+VideogamePostRequestJSON(Test.VerifcationTests)  Time elapsed: 0.153 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.JSONPostGame(StepClass.java:43)
+	at Test.VerifcationTests.VideogamePostRequestJSON(VerifcationTests.java:25)
+
+ExtractVerifyNewGameXML(Test.VerifcationTests)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.GetVideogame(StepClass.java:68)
+	at Test.VerifcationTests.ExtractVerifyNewGameXML(VerifcationTests.java:62)
+
+VideogamePostRequestXml(Test.VerifcationTests)  Time elapsed: 0.04 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.XMLPostGame(StepClass.java:48)
+	at Test.VerifcationTests.VideogamePostRequestXml(VerifcationTests.java:39)
+
+VideogameXmlMatchesSchema(Test.VerifcationTests)  Time elapsed: 0.025 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.CallEndpointXML(StepClass.java:33)
+	at Test.VerifcationTests.VideogameXmlMatchesSchema(VerifcationTests.java:55)
+

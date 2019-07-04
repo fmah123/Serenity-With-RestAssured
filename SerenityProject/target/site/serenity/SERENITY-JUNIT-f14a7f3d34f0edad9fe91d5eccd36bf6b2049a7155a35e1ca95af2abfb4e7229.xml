@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Test.XMLVerifcationTests" skipped="0" tests="1" time="8.86" timestamp="2019-01-16T09:56:00.925Z[Europe/London]"><testcase classname="Test.XMLVerifcationTests" name="Videogame xml matches schema"><error message="net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.getDefinedFilters()Ljava/util/List;" type="java.lang.AbstractMethodError">net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.getDefinedFilters()Ljava/util/List;</error><system-err>net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.getDefinedFilters()Ljava/util/List;&#13;
+net.serenitybdd.rest.utils.RestReportingHelper.recordRestSpecificationData(RestReportingHelper.java:47)&#13;
+net.serenitybdd.rest.utils.RestReportingHelper.registerCall(RestReportingHelper.java:67)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.execute(RequestSpecificationDecorated.java:263)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:48)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:27)&#13;
+Step.StepClass1.CallEndpointXML(StepClass1.java:22)&#13;
+Test.XMLVerifcationTests.VideogameXmlMatchesSchema(XMLVerifcationTests.java:19)&#13;
+</system-err></testcase></testsuite>

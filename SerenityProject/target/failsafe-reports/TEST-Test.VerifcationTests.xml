@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test.VerifcationTests" time="1.906" tests="5" errors="5" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mohammed Mahboob\IdeaProjects\SerenityProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mohammed Mahboob\IdeaProjects\SerenityProject"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MOHAMM~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Mohammed Mahboob\Documents\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32\cmd.exe;C:\Users\Mohammed Mahboob\Documents\Gradle\gradle-4.10.2\bin;%JAVA_HOME%\bin;C:\Program Files\dotnet\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\Mohammed Mahboob\AppData\Local\Microsoft\WindowsApps;C:\Users\Mohammed Mahboob\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Mohammed Mahboob\AppData\Local\Programs\Python\Python37-32\;C:\Users\Mohammed Mahboob\Documents\Fiddler;C:\Users\Mohammed Mahboob\Documents\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;."/>
+    <property name="maven.conf" value="C:\Users\Mohammed Mahboob\Documents\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Mohammed Mahboob\Documents\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Mohammed Mahboob"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Mohammed Mahboob"/>
+    <property name="java.class.path" value="C:\Users\Mohammed Mahboob\Documents\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Mohammed Mahboob\Documents\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="VideogameJsonMatchesSchema" classname="Test.VerifcationTests" time="1.657">
+    <error message="Specification to merge with cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.CallEndpointJSON(StepClass.java:23)
+	at Test.VerifcationTests.VideogameJsonMatchesSchema(VerifcationTests.java:48)
+</error>
+    <system-err><![CDATA[560 [main] INFO net.serenitybdd.core.Serenity - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+894 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Verifcation tests
+1133 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: VideogameJsonMatchesSchema
+-------------------------------------------------------------------
+1133 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+]]></system-err>
+  </testcase>
+  <testcase name="VideogamePostRequestJSON" classname="Test.VerifcationTests" time="0.153">
+    <error message="Specification to merge with cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.JSONPostGame(StepClass.java:43)
+	at Test.VerifcationTests.VideogamePostRequestJSON(VerifcationTests.java:25)
+</error>
+    <system-err><![CDATA[2548 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Videogame json matches schema
+---------------------------------------------------------------------
+2885 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Call endpoint JSON: /1
+2886 [main] ERROR net.serenitybdd.core.Serenity - Specification to merge with cannot be null
+2891 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: VideogamePostRequestJSON
+-------------------------------------------------------------------
+2891 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+]]></system-err>
+  </testcase>
+  <testcase name="ExtractVerifyNewGameXML" classname="Test.VerifcationTests" time="0.031">
+    <error message="Specification to merge with cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.GetVideogame(StepClass.java:68)
+	at Test.VerifcationTests.ExtractVerifyNewGameXML(VerifcationTests.java:62)
+</error>
+    <system-err><![CDATA[2949 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Videogame post request JSON
+---------------------------------------------------------------------
+2950 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP JSON post game: { "id": 12, "name": "PacMan 2", "releaseDate": "2018-12-21T16:29:45.912Z", "reviewScore": 99, "category": "Action", "rating": "Pg16" }
+2950 [main] ERROR net.serenitybdd.core.Serenity - Specification to merge with cannot be null
+2954 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: ExtractVerifyNewGameXML
+-------------------------------------------------------------------
+2954 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+]]></system-err>
+  </testcase>
+  <testcase name="VideogamePostRequestXml" classname="Test.VerifcationTests" time="0.04">
+    <error message="Specification to merge with cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.XMLPostGame(StepClass.java:48)
+	at Test.VerifcationTests.VideogamePostRequestXml(VerifcationTests.java:39)
+</error>
+    <system-err><![CDATA[2985 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Extract verify new game XML
+---------------------------------------------------------------------
+2986 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Get videogame: PacMan, PacMan
+2986 [main] ERROR net.serenitybdd.core.Serenity - Specification to merge with cannot be null
+3001 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: VideogamePostRequestXml
+-------------------------------------------------------------------
+3001 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
+]]></system-err>
+  </testcase>
+  <testcase name="VideogameXmlMatchesSchema" classname="Test.VerifcationTests" time="0.025">
+    <error message="Specification to merge with cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Specification to merge with cannot be null
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.SpecificationMerger.merge(SpecificationMerger.groovy:92)
+	at io.restassured.internal.RequestSpecificationImpl.spec(RequestSpecificationImpl.groovy:1008)
+	at Step.StepClass.CallEndpointXML(StepClass.java:33)
+	at Test.VerifcationTests.VideogameXmlMatchesSchema(VerifcationTests.java:55)
+</error>
+    <system-err><![CDATA[3032 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Videogame post request xml
+---------------------------------------------------------------------
+3037 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP XML post game: 11 PacMan 2003-15-01T00:00:00+01:00 89
+3038 [main] ERROR net.serenitybdd.core.Serenity - Specification to merge with cannot be null
+3042 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: VideogameXmlMatchesSchema
+-------------------------------------------------------------------
+3043 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
+]]></system-err>
+  </testcase>
+</testsuite>

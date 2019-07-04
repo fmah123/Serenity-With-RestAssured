@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Test.VerifcationTests" skipped="0" tests="1" time="6.98" timestamp="2019-01-16T09:36:16.126Z[Europe/London]"><testcase classname="Test.VerifcationTests" name="Videogame json matches schema"><error message="com.fasterxml.jackson.core.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')&#10; at [Source: (StringReader); line: 1, column: 2]" type="io.restassured.module.jsv.JsonSchemaValidationException">com.fasterxml.jackson.core.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: (StringReader); line: 1, column: 2]</error><system-err>com.fasterxml.jackson.core.JsonParseException: Unexpected character ('&lt;' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: (StringReader); line: 1, column: 2]&#13;
+io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:233)&#13;
+io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:75)&#13;
+io.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:76)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.Closure.call(Closure.java:414)&#13;
+groovy.lang.Closure.call(Closure.java:430)&#13;
+io.restassured.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.groovy:47)&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:95)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:254)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)&#13;
+Step.StepClass.VerifyJSONMatchesSchema(StepClass.java:48)&#13;
+Test.VerifcationTests.VideogameJsonMatchesSchema(VerifcationTests.java:35)&#13;
+</system-err></testcase></testsuite>
